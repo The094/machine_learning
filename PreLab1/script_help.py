@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-name_file = './data_lab1.txt'
+name_file = 'C:/Users/theos/OneDrive/ECEING4/S8/machine_learning/PreLab1/data_lab1.txt'
 
 columns = ['x','y']
 data_in = pd.read_csv(name_file, names=columns,sep=' ')
@@ -15,6 +15,7 @@ plt.figure(5)
 plt.plot(x,y,'ro')
 plt.xlabel('x')
 plt.ylabel('y')
+plt.show()
 
 a = np.array([[2, 0],[0, 2]])
 b = np.array([[4, 1],[2, 2]])
